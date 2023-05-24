@@ -14,7 +14,7 @@ buttonId.addEventListener('click', () => {
   let nodeText = document.createTextNode(inputValue);
   para.appendChild(nodeText);
   para.id = inputValue
-  document.getElementById("changeList").onclick = newList;
+  // document.getElementById("changeList").onclick = newList;
   para.addEventListener('click', function () {
 
     let todoValue = prompt("please enter your edit text", inputValue);
